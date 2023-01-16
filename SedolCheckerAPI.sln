@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SedolCheckerAPI", "src\API\SedolChecker.API\SedolCheckerAPI.csproj", "{9A72970C-0A6B-4108-BD31-CB9017839CED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SedolChecker.Core", "src\Core\SedolChecker.Core\SedolChecker.Core.csproj", "{B02688A1-C947-4612-8827-7CE97BC2C874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SedolChecker.Test", "test\SedolChecker.Test\SedolChecker.Test.csproj", "{BC79A7A6-9C96-4369-B365-12DA41FB1C21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A72970C-0A6B-4108-BD31-CB9017839CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A72970C-0A6B-4108-BD31-CB9017839CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A72970C-0A6B-4108-BD31-CB9017839CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A72970C-0A6B-4108-BD31-CB9017839CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02688A1-C947-4612-8827-7CE97BC2C874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02688A1-C947-4612-8827-7CE97BC2C874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02688A1-C947-4612-8827-7CE97BC2C874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02688A1-C947-4612-8827-7CE97BC2C874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC79A7A6-9C96-4369-B365-12DA41FB1C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC79A7A6-9C96-4369-B365-12DA41FB1C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC79A7A6-9C96-4369-B365-12DA41FB1C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC79A7A6-9C96-4369-B365-12DA41FB1C21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90FA4E9A-B951-4C9B-ABCF-97BC757B1302}
+	EndGlobalSection
+EndGlobal
